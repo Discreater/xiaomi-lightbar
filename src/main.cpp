@@ -16,6 +16,7 @@ void setup()
 void loop()
 {
 	// updateRadioScanner();
+	// delay(200);
 
 	sendCommand();
 	delay(2000);

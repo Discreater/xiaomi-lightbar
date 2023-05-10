@@ -1,0 +1,85 @@
+=========================
+Light Bar Packet received
+=========================
+------ address
+0: 0x67
+1: 0x22
+2: 0x9B
+3: 0xA3
+4: 0x89
+5: 0x26
+6: 0x82
+------ product serial
+7: 0x57
+8: 0x3D
+9: 0x86
+10: 0x1F
+------ packet ID counter, I think. Avoids duplicate execution
+11: 0xE0
+12: 0x40
+------ action
+13: 0xBF | brightness -
+------ checksum? parameters? noise? idk
+14: 0x96
+15: 0xB4
+16: 0x17
+17: 0x0
+
+
+=========================
+Light Bar Packet received
+=========================
+------ address
+0: 0x67
+1: 0x22
+2: 0x9B
+3: 0xA3
+4: 0x89
+5: 0x26
+6: 0x82
+------ product serial
+7: 0x57
+8: 0x3D
+9: 0x86
+10: 0x1F
+------ packet ID counter, I think. Avoids duplicate execution
+11: 0xFB
+12: 0xC0
+------ action
+13: 0x20 | on/off
+------ checksum? parameters? noise? idk
+14: 0x2A
+15: 0xE4
+------ noise? not affect the 'brightness -' command
+16: 0x63
+17: 0x0
+=========================
+
+=========================
+Light Bar Packet received
+=========================
+------ address
+0: 0x67
+1: 0x22
+2: 0x9B
+3: 0xA3
+4: 0x89
+5: 0x26
+6: 0x82
+------ product serial
+7: 0x57
+8: 0x3D
+9: 0x86
+10: 0x1F
+------ packet ID counter, I think. Avoids duplicate execution
+11: 0xE6
+12: 0x60
+------ action
+13: 0x80 | brightness +
+------ checksum? parameters? noise? idk
+14: 0x29
+15: 0x56
+------ noise? not affect the 'brightness -' command
+16: 0xD6
+17: 0x0
+=========================
